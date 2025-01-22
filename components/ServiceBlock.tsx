@@ -47,7 +47,7 @@ const ServiceBlock = ({ id, children, className, ...props }: ServiceBlockProps) 
                 style={{ transform: isOpen ? "rotate(0deg)" : "rotate(180deg)" }}
                 onClick={() => setIsOpen(!isOpen)}
             >
-                <Image className="max-lg:w-[40px] max-lg:h-[40px]" src="/toggleArrow.svg" width={80} height={80} alt="toggle arrow" />
+                <Image className="max-lg:w-[40px] max-lg:h-[40px]" src="toggleArrow.svg" width={80} height={80} alt="toggle arrow" />
             </button>
 
             <div className="flex items-center pr-[80px] max-lg:pr-[40px]">
