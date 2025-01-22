@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-height: 50px;
+  --color-secondary: 275 6% 58%;
+  --color-brand-dark: 263 29% 18%;
+  --color-white: 0 0% 100%;
+  --color-tier1: 146 50% 57%;
+  --color-brand: 162 50%, 51%;
+  --color-tier3: 188 62% 49%;
+  --color-tier4: 188 62% 49%;
+
+  @media not all and (max-width: 1024px) {
+    --header-height: 96px;
+  }
+}
+
+html,
+body {
+  @apply min-h-[100vh];
+}
+
+.wrapper {
+  @apply min-h-[100%] w-full;
+}
+
+body {
+  @apply font-ibmPlexSans text-body-regular flex;
+}
